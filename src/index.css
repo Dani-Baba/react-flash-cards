@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5f8383;
+}
+
+
+.flashCards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* background-color: rgb(139, 116, 85); */
+  /* border: 2px solid black; */
+  align-items: center;
+  justify-items: center;
+  margin: 100px 0;
+  padding: 5px;
+  gap: 1.5rem;
+}
+
+.flashCards >div{
+  border: 4px solid #09424a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 21px;
+  color: #031b26;
+  font-weight: bold;
+
+}
+
+
+.selected{
+  background-color: #23fffc;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
