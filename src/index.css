@@ -43,3 +43,16 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+
+@media screen and ( width < 700px){
+  /* .flashCards >div{
+
+    font-size: 15px;
+  } */
+
+  .flashCards{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
